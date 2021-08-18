@@ -1,21 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IndexPageComponent } from './index-page/index-page.component';
-import { ComponentModule } from '../components/component.module';
+import { GreetingComponent } from './greeting/greeting.component';
 import { MaterialModule } from '../material/material.module';
 
 
 
 @NgModule({
   declarations: [
-    IndexPageComponent
+    GreetingComponent
   ],
   imports: [
     CommonModule,
-    ComponentModule,
+    MaterialModule
   ],
   exports: [
-    IndexPageComponent
+    GreetingComponent
   ]
 })
-export class PageModule { }
+export class ComponentModule { }
