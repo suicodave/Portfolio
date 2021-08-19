@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { GreetingComponent } from './greeting/greeting.component';
 import { MaterialModule } from '../material/material.module';
 import { EducationComponent, EducationItemComponent } from './education/education.component';
+import { WorkExperienceComponent, WorkExperienceItemComponent } from './work-experience/work-experience.component';
 
 
 
@@ -10,7 +11,9 @@ import { EducationComponent, EducationItemComponent } from './education/educatio
   declarations: [
     GreetingComponent,
     EducationComponent,
-    EducationItemComponent
+    EducationItemComponent,
+    WorkExperienceComponent,
+    WorkExperienceItemComponent
   ],
   imports: [
     CommonModule,
@@ -19,7 +22,9 @@ import { EducationComponent, EducationItemComponent } from './education/educatio
   exports: [
     GreetingComponent,
     EducationComponent,
-    EducationItemComponent
+    EducationItemComponent,
+    WorkExperienceComponent,
+    WorkExperienceItemComponent
   ]
 })
 export class ComponentModule { }
