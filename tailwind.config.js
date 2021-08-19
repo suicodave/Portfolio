@@ -3,7 +3,7 @@ const { guessProductionMode } = require("@ngneat/tailwind");
 module.exports = {
   prefix: '',
   purge: {
-    enabled: true,
+    enabled: guessProductionMode,
     content: [
       './src/**/*.{html,ts}',
     ]

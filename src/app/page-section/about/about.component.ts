@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
           </div>
 
           <div class="grid-2 p-5">
-
+              <app-work-experience></app-work-experience>
           </div>
         </mat-card>
 

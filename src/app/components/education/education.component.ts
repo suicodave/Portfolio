@@ -11,7 +11,7 @@ import { Component, Input, OnInit } from '@angular/core';
       <div class="grid-1">
 
 
-        <div class="mb-16" *ngFor="let item of schools; last as isLast">
+        <div class="mb-8" *ngFor="let item of schools; last as isLast">
           <app-education-item [data]="item"></app-education-item>
           <!-- <mat-divider *ngIf="!isLast"></mat-divider> -->
         </div>
