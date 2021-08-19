@@ -2,19 +2,24 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GreetingComponent } from './greeting/greeting.component';
 import { MaterialModule } from '../material/material.module';
+import { EducationComponent, EducationItemComponent } from './education/education.component';
 
 
 
 @NgModule({
   declarations: [
-    GreetingComponent
+    GreetingComponent,
+    EducationComponent,
+    EducationItemComponent
   ],
   imports: [
     CommonModule,
     MaterialModule
   ],
   exports: [
-    GreetingComponent
+    GreetingComponent,
+    EducationComponent,
+    EducationItemComponent
   ]
 })
 export class ComponentModule { }
