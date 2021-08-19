@@ -1,18 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-index-page',
+  selector: 'app-about',
   template: `
-    <app-hero></app-hero>
-    <div id="aboutMe">
-      <app-about></app-about>
+    <div class="w-full h-4/5 bg-blue-400">
+      asd
     </div>
-
   `,
   styles: [
   ]
 })
-export class IndexPageComponent implements OnInit {
+export class AboutComponent implements OnInit {
 
   constructor() { }
 
