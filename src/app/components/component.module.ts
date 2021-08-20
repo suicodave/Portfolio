@@ -4,6 +4,7 @@ import { GreetingComponent } from './greeting/greeting.component';
 import { MaterialModule } from '../material/material.module';
 import { EducationComponent, EducationItemComponent } from './education/education.component';
 import { WorkExperienceComponent, WorkExperienceItemComponent } from './work-experience/work-experience.component';
+import { ProfileCardComponent } from './profile-card/profile-card.component';
 
 
 
@@ -13,7 +14,8 @@ import { WorkExperienceComponent, WorkExperienceItemComponent } from './work-exp
     EducationComponent,
     EducationItemComponent,
     WorkExperienceComponent,
-    WorkExperienceItemComponent
+    WorkExperienceItemComponent,
+    ProfileCardComponent
   ],
   imports: [
     CommonModule,
@@ -24,7 +26,8 @@ import { WorkExperienceComponent, WorkExperienceItemComponent } from './work-exp
     EducationComponent,
     EducationItemComponent,
     WorkExperienceComponent,
-    WorkExperienceItemComponent
+    WorkExperienceItemComponent,
+    ProfileCardComponent
   ]
 })
 export class ComponentModule { }
