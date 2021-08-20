@@ -4,16 +4,16 @@ import { Component, Input, OnInit } from '@angular/core';
   selector: 'app-education',
   template: `
     <div class="relative grid grid-cols-2">
-      <h1 class="text-center font-400 mb-16 col-span-2">
+      <h1 class="text-center font-bold mb-16 col-span-2">
             Education
       </h1>
 
       <div class="grid-1">
 
 
-        <div class="mb-8" *ngFor="let item of schools; last as isLast">
+        <div class="my-8 relative" *ngFor="let item of schools; last as isLast">
           <app-education-item [data]="item"></app-education-item>
-          <!-- <mat-divider *ngIf="!isLast"></mat-divider> -->
+          <mat-divider *ngIf="!isLast"></mat-divider>
         </div>
       </div>
       <div class="grid-2">
@@ -73,20 +73,20 @@ export interface EducationModel {
   selector: 'app-education-item',
   template: `
     <div class="relative w-auto">
-      <div class="font-500 text-xl mb-2">
+      <div class="font-normal text-xl mb-2">
         {{data?.name}}
       </div>
 
-      <div class="mb-2" *ngIf="data?.subLabel">
+      <div class="mb-2 text-gray-500" *ngIf="data?.subLabel">
         {{data?.subLabel}}
       </div>
 
 
-      <div class="mb-2">
+      <div class="mb-2 text-gray-500">
         {{data?.address}}
       </div>
 
-      <div class="mb-2">
+      <div class="mb-2 text-gray-500">
         {{data?.fromYear}} - {{data?.toYear}}
       </div>
     </div>

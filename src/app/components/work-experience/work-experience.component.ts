@@ -4,7 +4,7 @@ import { Component, Input, OnInit } from '@angular/core';
   selector: 'app-work-experience',
   template: `
     <div class="relative grid grid-cols-2">
-      <h1 class="text-center font-400 mb-16 col-span-2">
+      <h1 class="text-center font-bold mb-16 col-span-2">
         Work Experience
       </h1>
 
@@ -16,6 +16,7 @@ import { Component, Input, OnInit } from '@angular/core';
 
         <div class="mb-8" *ngFor="let item of workExperiences; last as isLast">
           <app-work-experience-item [data]="item"></app-work-experience-item>
+          <mat-divider *ngIf="!isLast"></mat-divider>
         </div>
       </div>
 
@@ -61,16 +62,16 @@ export interface WorkExperienceModel {
   template: `
     <div class="relative w-auto">
       <a [href]="data?.website" target="_">
-        <div class="font-500 underline  text-xl mb-2 w-max">
+        <div class="font-normal underline  text-xl mb-2">
           {{data?.name}}
         </div>
       </a>
 
-      <div class="mb-2">
+      <div class="mb-2 text-gray-500">
         {{data?.role}}
       </div>
 
-      <div class="mb-2">
+      <div class="mb-2 text-gray-500">
         {{data?.fromDate | date:'longDate'}} -
         <span *ngIf="isPresent" >Present</span>
         <span *ngIf="!isPresent" >{{data?.toDate | date:'longDate'}}</span>
