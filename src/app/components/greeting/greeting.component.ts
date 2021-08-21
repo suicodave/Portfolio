@@ -14,7 +14,7 @@ import { Component, OnInit } from '@angular/core';
       </p>
 
       <p class="text-xl mt-24 w-4/5 text-justify">
-        Build apps that digitize business data ranging from data-entry to monitoring and reporting dashboards to help the management make an informed decisions.
+        Build apps to digitize business data from data-entry to monitoring and reporting dashboards to help the management create an informed decisions.
       </p>
 
       <a href="#aboutMe" mat-raised-button class="bg-purple-500 text-white mt-5">Learn More</a>

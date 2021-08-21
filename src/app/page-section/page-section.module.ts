@@ -4,13 +4,15 @@ import { HeroComponent } from './hero/hero.component';
 import { ComponentModule } from '../components/component.module';
 import { AboutComponent } from './about/about.component';
 import { MaterialModule } from '../material/material.module';
+import { SkillComponent } from './skill/skill.component';
 
 
 
 @NgModule({
   declarations: [
     HeroComponent,
-    AboutComponent
+    AboutComponent,
+    SkillComponent
   ],
   imports: [
     CommonModule,
@@ -19,7 +21,8 @@ import { MaterialModule } from '../material/material.module';
   ],
   exports: [
     HeroComponent,
-    AboutComponent
+    AboutComponent,
+    SkillComponent
   ]
 })
 export class PageSectionModule { }
