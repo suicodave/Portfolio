@@ -13,16 +13,16 @@ import { Component, OnInit } from '@angular/core';
         Dave Suico
       </p>
 
-      <div class="links bg-gray-500 rounded-lg flex justify-evenly  mt-10">
-        <a mat-button href="https://github.com/suicodave" target="_" class="p-4 rounded-full">
+      <div class="links bg-gray-500 rounded-lg flex py-1 justify-evenly  mt-10">
+        <a mat-button href="https://github.com/suicodave" target="_" class="w-16 h-16 rounded-full flex  justify-center items-center">
           <img class="object-contain h-10 w-10" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Github Link">
         </a>
 
-        <a mat-button href="mailto:alwayshungry102@gmail.com" class="p-4 rounded-full">
+        <a mat-button href="mailto:alwayshungry102@gmail.com" class="w-16 h-16 rounded-full flex  justify-center items-center">
           <img class="object-contain h-10 w-10" src="https://1000logos.net/wp-content/uploads/2021/05/Gmail-logo-500x281.png" alt="My E-mail">
         </a>
 
-        <a mat-button href="https://www.linkedin.com/in/dave-suico-04a043204" class="p-4 rounded-full" target="_">
+        <a mat-button  href="https://www.linkedin.com/in/dave-suico-04a043204" class="  w-16 h-16 rounded-full flex  justify-center items-center" target="_">
           <img class="object-contain h-10 w-10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" alt="LinkedIn Link">
         </a>
 
