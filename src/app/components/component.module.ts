@@ -5,6 +5,7 @@ import { MaterialModule } from '../material/material.module';
 import { EducationComponent, EducationItemComponent } from './education/education.component';
 import { WorkExperienceComponent, WorkExperienceItemComponent } from './work-experience/work-experience.component';
 import { ProfileCardComponent } from './profile-card/profile-card.component';
+import { SkillListComponent, SkillListItemComponent } from './skill-list/skill-list.component';
 
 
 
@@ -15,7 +16,9 @@ import { ProfileCardComponent } from './profile-card/profile-card.component';
     EducationItemComponent,
     WorkExperienceComponent,
     WorkExperienceItemComponent,
-    ProfileCardComponent
+    ProfileCardComponent,
+    SkillListComponent,
+    SkillListItemComponent
   ],
   imports: [
     CommonModule,
@@ -27,7 +30,9 @@ import { ProfileCardComponent } from './profile-card/profile-card.component';
     EducationItemComponent,
     WorkExperienceComponent,
     WorkExperienceItemComponent,
-    ProfileCardComponent
+    ProfileCardComponent,
+    SkillListComponent,
+    SkillListItemComponent
   ]
 })
 export class ComponentModule { }
