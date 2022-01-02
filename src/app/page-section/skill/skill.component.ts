@@ -53,7 +53,7 @@ export class SkillComponent implements OnInit {
       fromYear: 2015
     },
     {
-      logo: 'https://www.w3.org/html/logo/badge/html5-badge-h-solo.png',
+      logo: 'https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_640.png',
       label: 'HTML',
       fromYear: 2014
     },
@@ -76,7 +76,7 @@ export class SkillComponent implements OnInit {
       fromYear: 2017
     },
     {
-      logo: 'https://tailwindcss.com/_next/static/media/tailwindcss-mark.cb8046c163f77190406dfbf4dec89848.svg',
+      logo: 'https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg',
       label: 'Tailwind',
       fromYear: 2021
     },
