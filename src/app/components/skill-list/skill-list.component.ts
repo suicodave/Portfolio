@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
        <img class="h-16 w-16 m-auto mb-8 object-contain" [src]="headerLogo" *ngIf="headerLogo" alt="">
 
       <div class="scroller  ">
-        <div class="mb-4 " *ngFor="let item of data">
+        <div class="mb-4" *ngFor="let item of data">
           <app-skill-list-item  [data]="item">
           </app-skill-list-item>
         </div>
@@ -47,7 +47,7 @@ export interface SkillModel {
 @Component({
   selector: 'app-skill-list-item',
   template: `
-    <mat-card class="mx-16">
+    <mat-card class="mx-16 w-4/5">
       <div class="grid grid-cols-3">
         <div class="grid-1 h-16 flex content-center">
           <img class="w-20 object-contain" [src]="data?.logo" [alt]="data?.label">

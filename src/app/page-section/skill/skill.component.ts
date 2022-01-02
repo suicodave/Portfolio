@@ -9,18 +9,18 @@ import { SkillModel } from 'src/app/components/skill-list/skill-list.component';
         Tech Stacks
       </h1>
 
-      <div class="mx-10 grid h-3/4 relative grid-cols-3">
+      <div class="mx-10 grid h-3/4 relative lg:grid-cols-3 gap-8">
 
-          <div class="languages relative p-8">
+          <div class="languages relative lg:p-8">
             <app-skill-list [data]="languages" headerLogo="https://cdn3.iconfinder.com/data/icons/coding/16/html-tag-01-512.png" ></app-skill-list>
           </div>
 
-          <div class="frameworks p-8 relative">
+          <div class="frameworks lg:p-8 relative">
             <app-skill-list [data]="frameworks" headerLogo="https://cdn3.iconfinder.com/data/icons/master/24/Gears-512.png" ></app-skill-list>
           </div>
 
 
-          <div class="tools p-8 relative">
+          <div class="tools lg:p-8 relative">
             <app-skill-list [data]="tools" headerLogo="https://cdn0.iconfinder.com/data/icons/simple-darkcon-1/95/settings-512.png" ></app-skill-list>
           </div>
       </div>
