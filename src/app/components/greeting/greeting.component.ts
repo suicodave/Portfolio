@@ -13,7 +13,7 @@ import { Component, OnInit } from '@angular/core';
         -A Full-Stack Web Developer.
       </p>
 
-      <p class="text-xl mt-24 w-4/5 text-justify">
+      <p class="text-xl mt-24 lg:w-4/5 text-justify">
         Build apps to digitize business data from data-entry to monitoring and reporting dashboards to help the management create an informed decisions.
       </p>
 
